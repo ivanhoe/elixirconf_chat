@@ -26,7 +26,7 @@ defmodule ElixirconfChatWeb.PrivacyPolicyLive do
   def logo(assigns) do
     ~H"""
     <div class="text-center text-sm text-brand-gray-700 font-semibold uppercase tracking-[3px]">
-      <img class="mx-auto" src="/images/elixir-logo.png" width="75" height="60" alt="" />
+      <img class="mx-auto" src="/images/iosdevsmx-logo.png" width="75" height="60" alt="" />
       <h1 class="mt-3">ElixirConf Chat</h1>
     </div>
     """

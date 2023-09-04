@@ -27,12 +27,12 @@ end
 
 if config_env() == :prod do
   # Session token configuration
-  token_salt =
-    System.get_env("TOKEN_SALT") ||
-      raise """
-      environment variable TOKEN_SALT is missing.
-      This field is required to support session tokens.
-      """
+  token_salt = "SFMyNTY.g2gDYgAxYsBuBgDvgldgigFiAAFRgA.XMmzR6Tq_OCB5yBQBM6-N-BeBqnZX5pVB_HXAwlDWqg"
+    # System.get_env("TOKEN_SALT") ||
+    #   raise """
+    #   environment variable TOKEN_SALT is missing.
+    #   This field is required to support session tokens.
+    #   """
 
   config :elixirconf_chat, token_salt: token_salt
 

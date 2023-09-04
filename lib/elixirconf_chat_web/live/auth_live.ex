@@ -40,7 +40,7 @@ defmodule ElixirconfChatWeb.AuthLive do
   @impl true
   def render(assigns) do
     ~H"""
-    <div id="main"class="min-h-screen p-4 bg-brand-purple flex items-center align-center font-system" phx-hook="ValidateAuthToken">
+    <div id="main"class="min-h-screen p-4 bg-brand-gray flex items-center align-center font-system" phx-hook="ValidateAuthToken">
       <div class="mx-auto w-full max-w-[288px] min-[448px]:max-w-[412px] min-[532px]:max-w-[500px] p-4 min-[448px]:p-12 min-[532px]:p-15 bg-white rounded-[32px]">
       <.logo logo_title={true} {assigns} />
       <%= if assigns[:user] do %>
@@ -107,7 +107,6 @@ defmodule ElixirconfChatWeb.AuthLive do
     ~SWIFTUI"""
     <VStack>
       <Image modclass="stretch w-82 h-82 offset-y-8" name="Logo" />
-      <Text modclass="capitalize type-size-x-small kerning-2 font-weight-semibold">ElixirConf Chat</Text>
     </VStack>
     """
   end
@@ -115,8 +114,8 @@ defmodule ElixirconfChatWeb.AuthLive do
   def logo(assigns) do
     ~H"""
     <div class="text-center text-sm text-brand-gray-700 font-semibold uppercase tracking-[3px]">
-      <img class="mx-auto" src="/images/elixir-logo.png" width="75" height="60" alt="" />
-      <h1 class="mt-3">ElixirConf Chat</h1>
+      <img class="mx-auto" src="/images/iosdevsmx-logo.png" width="75" height="60" alt="" />
+      <h1 class="mt-3">iOSDevsMX CONFERENCE</h1>
     </div>
     """
   end
@@ -275,7 +274,7 @@ defmodule ElixirconfChatWeb.AuthLive do
         <% end %>
         <div class="hidden min-[448px]:block absolute -right-10 top-0 w-10 h-full rounded bg-white" aria-hidden="true"></div>
       </div>
-      <button type="submit" class="mt-8 w-full h-14 bg-brand-purple text-xl text-semibold text-white rounded-lg border-2 border-transparent outline-none transition duration-200 hover:text-brand-purple hover:bg-white hover:border-brand-purple focus:ring-2 focus:ring-[#1ff4ff] disabled:bg-brand-gray-200 disabled:text-brand-gray-400 disabled:cursor-not-allowed disabled:border-transparent">
+      <button type="submit" class="mt-8 w-full h-14 bg-brand-gray text-xl text-semibold text-white rounded-lg border-2 border-transparent outline-none transition duration-200 hover:text-brand-purple hover:bg-white hover:border-brand-purple focus:ring-2 focus:ring-[#1ff4ff] disabled:bg-brand-gray-200 disabled:text-brand-gray-400 disabled:cursor-not-allowed disabled:border-transparent">
         Verify
       </button>
     </form>
@@ -286,12 +285,8 @@ defmodule ElixirconfChatWeb.AuthLive do
     ~SWIFTUI"""
     <VStack id="welcome">
       <VStack modclass="font-title font-weight-semibold p-16">
-        <Text>Welcome to ElixirConf</Text>
-        <Text>2023 Chat</Text>
-      </VStack>
-      <VStack modclass="line-spacing-8 font-weight-light">
-        <Text>To get started, enter the email address</Text>
-        <Text>you used to register for ElixirConf 2023</Text>
+        <Text>Welcome to iOS Developers MX</Text>
+        <Text>Conference Chat</Text>
       </VStack>
     </VStack>
     """
@@ -300,9 +295,9 @@ defmodule ElixirconfChatWeb.AuthLive do
   defp welcome_message(assigns) do
     ~H"""
     <div class="mt-8 text-center" id="welcome">
-      <h2 class="text-2xl min-[532px]:text-3.5xl font-semibold">Welcome to ElixirConf 2023 Chat!</h2>
+      <h2 class="text-2xl min-[532px]:text-3.5xl font-semibold">Welcome to iOSDevsMX 2024 Conference!</h2>
       <p class="mt-2 font-normal text-brand-gray-600">
-        To get started, enter the email address you used to register for ElixirConf 2023
+        To get started, enter the email address you used to register for iOSDevsMX 2024
       </p>
     </div>
     """
