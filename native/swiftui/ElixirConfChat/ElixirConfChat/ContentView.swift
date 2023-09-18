@@ -28,7 +28,8 @@ struct ContentView: View {
     @StateObject private var coordinator = LiveSessionCoordinator<AppRegistries>(
         {
             #if DEBUG
-            let baseURL = URL(string: "http://localhost:4000/")!
+//              let baseURL = URL(string: "http://localhost:4000/")!
+            let baseURL = URL(string:"https://iosdevsmxconf-2024.fly.dev/")!
             #else
             let baseURL = URL(string: "https://chat.elixirconf.com/")!
             #endif

@@ -152,7 +152,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2F9982FB2A60800400F76113 /* Build configuration list for PBXProject "ElixirconfChat" */;
+			buildConfigurationList = 2F9982FB2A60800400F76113 /* Build configuration list for PBXProject "ElixirConfChat" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -323,7 +323,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ElixirConfChat/Preview Content\"";
-				DEVELOPMENT_TEAM = 8YF596VCP4;
+				DEVELOPMENT_TEAM = SQV3J7569K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "ElixirConf Chat";
@@ -337,7 +337,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dockyard.ElixirConf2023Chat;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.iosdevs.conf.iosdevsmx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -353,7 +353,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ElixirConfChat/Preview Content\"";
-				DEVELOPMENT_TEAM = 8YF596VCP4;
+				DEVELOPMENT_TEAM = SQV3J7569K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "ElixirConf Chat";
@@ -367,7 +367,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dockyard.ElixirConf2023Chat;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.iosdevs.conf.iosdevsmx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -378,7 +378,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2F9982FB2A60800400F76113 /* Build configuration list for PBXProject "ElixirconfChat" */ = {
+		2F9982FB2A60800400F76113 /* Build configuration list for PBXProject "ElixirConfChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F99830C2A60800500F76113 /* Debug */,
